@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  goapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker-go-rocks:latest
