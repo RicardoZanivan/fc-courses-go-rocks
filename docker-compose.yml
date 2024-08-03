@@ -5,4 +5,4 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: docker-go-rocks:latest
+    image: zanivanr/docker-go-rocks:latest
